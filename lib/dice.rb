@@ -3,5 +3,6 @@
 # I want to be able to roll a dice
 class Dice
   def roll
+    3
   end
 end
