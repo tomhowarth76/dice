@@ -1,8 +1,11 @@
-# As a board game player,
-# So that I can play a game
-# I want to be able to roll a dice
+
+
 class Dice
-  def roll
-    rand(6) + 1
+  def roll(number_of_dice = 1)
+    results = []
+    number_of_dice.times do
+      results << rand(6) + 1
+    end
+      return results
   end
 end
